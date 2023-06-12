@@ -1,0 +1,19 @@
+Przełącznik (switch): Element pozwalający użytkownikowi przełączać między dwoma stanami (np. Włączony/Wyłączony).
+
+Pasek nawigacji (navbar): Komponent służący do tworzenia interaktywnego paska z linkami do różnych sekcji strony.
+
+Lista (list): Element pozwalający na wyświetlanie listy elementów w pionowej lub poziomej formie.
+
+Wybór z rozwijanej listy (dropdown): Komponent pozwalający na wybór jednej z dostępnych opcji z rozwijanej listy.
+
+Przełącznik wyboru (checkbox): Element, który umożliwia użytkownikowi zaznaczenie jednego lub więcej elementów z dostępnej listy.
+
+Zakładki (tabs): Element pozwalający na tworzenie wielu sekcji zawartości, które użytkownik może przełączać.
+
+Alert (powiadomienie): Komponent służący do wyświetlania wiadomości dla użytkownika, np. ostrzeżeń czy komunikatów sukcesu.
+
+Tabela (table): Element, który pozwala na wyświetlanie danych w formie tabeli.
+
+Progres (progress): Komponent pozwalający na wyświetlanie postępu, np. podczas ładowania danych.
+
+Karta (card): Element służący do prezentacji zawartości w elegancki sposób, z tytułem, obrazkiem i tekstem.
