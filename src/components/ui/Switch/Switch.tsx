@@ -8,7 +8,7 @@ type SwitchProps = {
     className?: string;
 };
 
-const Switch = ({ id, name, checked, onChange, className }: SwitchProps) => {
+export const Switch = ({ id, name, checked, onChange, className }: SwitchProps) => {
     return (
         <div className={className}>
             <input
@@ -23,5 +23,3 @@ const Switch = ({ id, name, checked, onChange, className }: SwitchProps) => {
         </div>
     );
 };
-
-export default Switch;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 interface NavbarProps {
   navClass?: string;
@@ -7,22 +7,26 @@ interface NavbarProps {
   aClass?: string;
 }
 
-const Navbar = ({ navClass, ulClass, liClass, aClass }: NavbarProps) => {
+export const Navbar = ({ navClass, ulClass, liClass, aClass }: NavbarProps) => {
   return (
     <nav className={navClass}>
       <ul className={ulClass}>
         <li className={liClass}>
-          <a href="/" className={aClass}>Home</a>
+          <a href="/" className={aClass}>
+            Home
+          </a>
         </li>
         <li className={liClass}>
-          <a href="/about" className={aClass}>About</a>
+          <a href="/about" className={aClass}>
+            About
+          </a>
         </li>
         <li className={liClass}>
-          <a href="/contact" className={aClass}>Contact</a>
+          <a href="/contact" className={aClass}>
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
   );
 };
-
-export default Navbar;
