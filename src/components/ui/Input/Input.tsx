@@ -1,4 +1,4 @@
-import React, { ChangeEvent } from 'react';
+import React, { ChangeEvent } from "react";
 
 type InputProps = {
   label: string;
@@ -6,7 +6,7 @@ type InputProps = {
   onChange: (value: string) => void;
 };
 
-const Input: React.FC<InputProps> = ({ label, value, onChange }) => {
+export const Input = ({ label, value, onChange }: InputProps) => {
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     onChange(event.target.value);
   };
@@ -18,5 +18,3 @@ const Input: React.FC<InputProps> = ({ label, value, onChange }) => {
     </div>
   );
 };
-
-export default Input;

@@ -6,12 +6,10 @@ type ButtonProps = {
     label: string;
 };
 
-const Button: React.FC<ButtonProps> = ({onClick, disabled, label}) => {
+export const Button = ({ onClick, disabled, label }: ButtonProps) => {
     return (
         <button onClick={onClick} disabled={disabled}>
             {label}
         </button>
     );
 };
-
-export default Button;
