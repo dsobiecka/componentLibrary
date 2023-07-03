@@ -6,6 +6,7 @@ import { Input } from "./components/ui/Input/Input";
 import { ListElement } from "./components/ui/ListElements/ListElement";
 import { Switch } from "./components/ui/Switch/Switch";
 import { Navbar } from "./components/ui/Navbar/Navbar";
+import { Slider } from "./components/ui/Slider/Slider";
 
 function App() {
   //button
@@ -37,6 +38,13 @@ function App() {
   const handleSwitchChange = (event: ChangeEvent<HTMLInputElement>) => {
     setSwitchOn(event.target.checked);
   };
+
+  //slider
+  const images = [
+    "https://worldbank.scene7.com/is/image/worldbankprod/rural-women-Nigeria-main-780x439?wid=780&hei=439&qlt=85,0&resMode=sharp",
+    "https://worldbank.scene7.com/is/image/worldbankprod/rural-women-Nigeria-780x439?wid=780&hei=439&qlt=85,0&resMode=sharp",
+    "https://c8.alamy.com/comp/2AK5A11/nigerian-woman-selling-in-a-local-nigerian-market-using-her-mobile-phone-and-credit-card-to-do-a-transaction-online-smiling-2AK5A11.jpg",
+  ];
 
   return (
     <div className="App">
@@ -78,6 +86,8 @@ function App() {
         onChange={handleSwitchChange}
         className="example-switch"
       />
+
+      <Slider images={images} />
     </div>
   );
 }
