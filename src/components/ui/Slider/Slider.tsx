@@ -5,7 +5,7 @@ type SliderProps = {
   images: string[];
 };
 
-export const Slider: React.FC<SliderProps> = ({ images }) => {
+export const Slider = ({ images }: SliderProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
