@@ -7,6 +7,7 @@ import { ListElement } from "./components/ui/ListElements/ListElement";
 import { Switch } from "./components/ui/Switch/Switch";
 import { Navbar } from "./components/ui/Navbar/Navbar";
 import { Slider } from "./components/ui/Slider/Slider";
+import { ProgressBar } from "./components/ui/ProgressBar/ProgressBar";
 
 function App() {
   //button
@@ -45,6 +46,9 @@ function App() {
     "https://worldbank.scene7.com/is/image/worldbankprod/rural-women-Nigeria-780x439?wid=780&hei=439&qlt=85,0&resMode=sharp",
     "https://c8.alamy.com/comp/2AK5A11/nigerian-woman-selling-in-a-local-nigerian-market-using-her-mobile-phone-and-credit-card-to-do-a-transaction-online-smiling-2AK5A11.jpg",
   ];
+
+  //progressbar
+  const [value, setValue] = useState(30);
 
   return (
     <div className="App">
@@ -88,6 +92,8 @@ function App() {
       />
 
       <Slider images={images} />
+
+      <ProgressBar value={value} max={100} />
     </div>
   );
 }
