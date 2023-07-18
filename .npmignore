@@ -4,3 +4,8 @@ src
 public
 .idea
 *.log
+.gitignore
+package.json
+/disc/components/App.js
+/disc/components/index.tsx
+/disc/components/index.css
