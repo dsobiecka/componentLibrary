@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.4.0] - 2023-07-18
+
+### Added
+
+delete some files from disc
+
 ## [2.3.0] - 2023-07-18
 
 ### Added
