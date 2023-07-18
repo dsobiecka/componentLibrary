@@ -1,6 +1,6 @@
 {
   "name": "@dominikaes/componentlibrary",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "main": "dist/components/index.js",
   "module": "dist/components/index.js",
   "types": "dist/components/index.d.ts",
