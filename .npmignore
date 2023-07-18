@@ -6,6 +6,7 @@ public
 *.log
 .gitignore
 package.json
+tsconfig.json
 /disc/components/App.js
 /disc/components/index.tsx
 /disc/components/index.css

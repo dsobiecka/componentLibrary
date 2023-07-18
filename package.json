@@ -1,7 +1,9 @@
 {
   "name": "@dominikaes/componentlibrary",
-  "version": "2.1.0",
-  "main": "dist/components/ui/index.ts",
+  "version": "2.3.0",
+  "main": "dist/components/index.js",
+  "module": "dist/components/index.js",
+  "types": "dist/components/index.d.ts",
   "description": "component library in ts",
   "scripts": {
     "start": "react-scripts start",
