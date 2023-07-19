@@ -5,6 +5,7 @@ interface NavbarProps {
   ulClass?: string;
   liClass?: string;
   aClass?: string;
+  className?: string;
 }
 
 export const Navbar = ({ navClass, ulClass, liClass, aClass }: NavbarProps) => {

@@ -1,14 +1,31 @@
 # Changelog
 
+## [2.10.0] - 2023-07-19
+
+### Added
+
+adding claaName to props
+
+## [2.9.0] - 2023-07-18
+
+### Added
+
+changed css files
+
 ## [2.8.0] - 2023-07-18
+
 ### Added
 
 components directory removed from src
 
 ## [2.7.0] - 2023-07-18
+
 ## [2.6.0] - 2023-07-18
+
 ## [2.5.0] - 2023-07-18
+
 ## [2.4.0] - 2023-07-18
+
 ### Added
 
 delete some files from disc

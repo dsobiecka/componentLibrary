@@ -4,6 +4,7 @@ type InputProps = {
   label: string;
   value: string;
   onChange: (value: string) => void;
+  className?: string;
 };
 
 export const Input = ({ label, value, onChange }: InputProps) => {

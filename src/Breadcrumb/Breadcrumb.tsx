@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 type BreadcrumbItem = {
   text: string;
   path: string;
+  className?: string;
 };
 
 type BreadcrumbProps = {
